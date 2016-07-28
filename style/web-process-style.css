@@ -1,0 +1,104 @@
+body {
+	width: 4500px;
+	font-family: Arial;
+	padding-left: 4em;
+	font-size: 15px;
+	line-height: 1.4;
+	color: #333;
+}
+
+h2 {
+	padding-left:1em;
+}
+
+h3 {
+	font-size: 0.9em;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-top: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li {
+	background: url(icon_grn_box.gif) no-repeat 0 8px;
+	margin-left: -32px;
+	padding-left: 16px;
+}
+
+.stage {
+	display: inline-block;
+	margin-top: 26px;
+	min-width: 200px;
+	vertical-align: top;
+}
+
+.stage-summary, .templates, .resources {
+	width: 230px;
+	float: left;
+	padding-right: 2.2em;
+}
+
+.steps, .more-steps {
+	width: 230px;
+	margin-left: 278px;
+	min-height: 160px;
+}
+
+.stage-summary, .steps {
+	min-height: 250px;
+	padding: 0 3em;
+	margin-bottom: 1em;
+}
+
+.templates, .more-steps {
+	padding: 0.8em 3em 1em 3em;
+}
+
+ul.includes, ol.includes {
+	margin-top: 2em;
+}
+
+.clearfix {
+	clear: both;
+	width: 100%;
+	border-top: solid 2px #7c7e7f;
+}
+
+.post-stage {
+	display: inline-block;
+	margin-top: 220px;
+	padding: 1.2em 2.4em 1em 1.4em;
+	vertical-align: top;
+	background: rgba(143,136,132,0.3);
+	max-width: 190px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	padding: 1px 2px;
+}
+
+	a.uc-resource { background-color: rgba(255,229, 82,1); }
+	a.external-resource { background-color: rgba(114,205,244,0.8); }
+	a.uc-template { background-color: rgba(255,143,40,0.8); }
+	a.external-template { background-color: rgba(0,163,173,0.6) }
+
+a:hover {
+	background-color: transparent;
+	color: #333;
+	text-decoration: underline;
+}
+
+.resources {
+	border-top: none;
+	padding-top: 0;
+	padding-left: 3em;
+	height: auto;
+/*	display: none;	*/
+}
+
+.key { display: none; }
