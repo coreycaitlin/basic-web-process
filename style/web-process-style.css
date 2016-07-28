@@ -1,8 +1,8 @@
 body {
-	width: 4500px;
+	width: 7500px;
 	font-family: Arial;
-	padding-left: 4em;
-	font-size: 15px;
+	padding-left: 2em;
+	font-size: 1.2em;
 	line-height: 1.4;
 	color: #333;
 }
@@ -24,8 +24,19 @@ ul {
 
 ul li {
 	background: url(icon_grn_box.gif) no-repeat 0 8px;
-	margin-left: -32px;
 	padding-left: 16px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	margin-left: -30px;
+}
+
+header {
+}
+
+.intro {
+	width: 350px;
+	margin-right: 2em;
+	color: rgba(0, 0, 0, .5);
 }
 
 .stage {
@@ -36,14 +47,14 @@ ul li {
 }
 
 .stage-summary, .templates, .resources {
-	width: 230px;
+	width: 270px;
 	float: left;
 	padding-right: 2.2em;
 }
 
 .steps, .more-steps {
-	width: 230px;
-	margin-left: 278px;
+	width: 270px;
+	margin-left: 332px;
 	min-height: 160px;
 }
 
@@ -82,23 +93,17 @@ a {
 	padding: 1px 2px;
 }
 
-	a.uc-resource { background-color: rgba(255,229, 82,1); }
-	a.external-resource { background-color: rgba(114,205,244,0.8); }
-	a.uc-template { background-color: rgba(255,143,40,0.8); }
-	a.external-template { background-color: rgba(0,163,173,0.6) }
+	a.resource { background-color: rgba(255,229, 82,.4); }
+		a.resource:hover { background-color: rgba(255,229, 82,1); }
 
-a:hover {
-	background-color: transparent;
-	color: #333;
-	text-decoration: underline;
-}
+	a.template { background-color: rgba(255,143,40,0.3); }
+		a.template:hover { background-color: rgba(255,143,40,0.8); }
+
+	a.external-template { background-color: rgba(0,163,173,0.6) }
 
 .resources {
 	border-top: none;
 	padding-top: 0;
 	padding-left: 3em;
 	height: auto;
-/*	display: none;	*/
 }
-
-.key { display: none; }
